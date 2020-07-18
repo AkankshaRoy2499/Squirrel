@@ -1,93 +1,115 @@
-html{
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
     background-color: lightcoral;
 }
-body{
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 87%;
 }
-header h1{
+
+header h1 {
     margin: 0;
     font-weight: normal;
     font-size: 165%;
 }
-header p{
-margin: 0;
+
+header p {
+    margin: 0;
 }
+
+
 /*site navigation*/
-.site-nav{
+
+.site-nav {
     margin-top: 20px;
 }
-.site-nav ul{
+
+.site-nav ul {
     margin: 0;
     padding: 0;
-
 }
-.site-nav li{
+
+.site-nav li {
     list-style: none;
     float: left;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-.site-nav a{
+
+.site-nav a {
     text-decoration: none;
     color: salmon;
     padding: 10px 20px;
     border: 3px solid lightgrey;
-    display:block;
+    display: block;
     margin: 5px;
-    
 }
-.site-nav a:hover{
+
+.site-nav a:hover {
     background-color: lightgray;
 }
-.image-banner img{
+
+.image-banner img {
     display: block;
-    
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
+
+
 /*Banner Overlay*/
-.image-banner{
+
+.image-banner {
     position: relative;
 }
-.banner-description{
-    position:relative;
-    top:10px;
-    left: 0;
-    color: antiquewhite;
-    padding: 5%;
-    
-background:rgba(0,0,0,.65)
 
+.banner-description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: antiquewhite;
+    padding: 3%;
+    background: rgba(0, 0, 0, .65)
 }
-header{
+
+header {
     padding-top: 20px;
-    
     color: gray;
 }
-.container{  
+
+.container {
     max-width: 800px;
-margin: auto;
-background-color: white;
-padding-left: 60px;
-padding-right: 60px;
-box-sizing: border-box;
+    margin: auto;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
 }
-.content-area{
+
+.content-area {
     border-top: 3px solid lightgray;
     border-bottom: 3px solid lightgrey;
 }
-.main-area{
-width: 66%;
-float: left;    
-padding: 40px;
-box-sizing: border-box;
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
 }
-.sidebar{
+
+.sidebar {
     width: 34%;
     float: left;
     background-color: lightgray;
@@ -98,21 +120,25 @@ box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-footer{
+
+footer {
     text-align: center;
     padding-bottom: 20px;
     color: silver;
     padding-top: 20px;
     font-size: 85%;
 }
+
 .group:before,
-.group:after{
+.group:after {
     content: "";
     display: table;
 }
-.group:after{
+
+.group:after {
     clear: both;
 }
-.group{
+
+.group {
     zoom: 1;
 }
